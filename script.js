@@ -1,7 +1,8 @@
 $(function () {
     var pokemonSearch;
     var defaultPokemon = '1';
-    var defaultPokemon
+    
+    
     var initFunc = function () {
         var defaultPokemonData = $.ajax({
             url: "https://pokeapi.co/api/v2/pokemon/" + defaultPokemon,
